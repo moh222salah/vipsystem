@@ -53,7 +53,7 @@
 
 ## 🇬🇧 About VIPAccSystem
 
-**VIPAccSystem** is a comprehensive, enterprise-grade open-source accounting ERP built on the FrontAccounting core, extensively customized for Arabic-speaking businesses. It delivers a powerful, bilingual (AR/EN) financial management platform with a modern luxury UI — the **Sovereign Noir** theme — featuring glassmorphism cards, gold accents, and animated dashboards.
+**VIPAccSystem** is a comprehensive, enterprise-grade open-source accounting ERP built on the vipsystem core, extensively customized for Arabic-speaking businesses. It delivers a powerful, bilingual (AR/EN) financial management platform with a modern luxury UI — the **Sovereign Noir** theme — featuring glassmorphism cards, gold accents, and animated dashboards.
 
 Designed for companies that demand **دقّة ماليّة** — financial precision.
 
@@ -64,7 +64,7 @@ Designed for companies that demand **دقّة ماليّة** — financial preci
 
 **VIPAccSystem** هو نظام ERP محاسبي مفتوح المصدر، متكامل ومُصمَّم للشركات الناطقة بالعربية. يوفر إدارة مالية شاملة ثنائية اللغة (عربي/إنجليزي) مع واجهة مستخدم فاخرة بأسلوب **Sovereign Noir** تتضمن تأثيرات الزجاج، اللمسات الذهبية، ولوحات بيانات متحركة.
 
-مبني على أساس FrontAccounting ومُطوَّر بشكل موسّع ليناسب بيئات الأعمال العربية.
+مبني على أساس vipsystem ومُطوَّر بشكل موسّع ليناسب بيئات الأعمال العربية.
 
 </td>
 </tr>
@@ -345,7 +345,7 @@ $max_rows_in_search       = 10;
 ✅  Error log file                  (VARLOG_PATH/errors.log)
 ```
 
-**Report vulnerabilities to:** `security@frontaccounting.com`
+**Report vulnerabilities to:** `security@vipsystem.com`
 
 ---
 
@@ -458,7 +458,7 @@ git push origin feature/your-feature-name
 **Contribution areas:**
 - 🌍 Translation improvements (Arabic, regional dialects)
 - 🎨 Theme development (RTL layout fixes, mobile responsiveness)  
-- 🐛 Bug reports via [Mantis bugtracker](https://mantis.frontaccounting.com)
+- 🐛 Bug reports via [Mantis bugtracker](https://mantis.vipsystem.com)
 - 📖 Documentation (Arabic/English)
 - 🔌 Extension development
 
@@ -497,7 +497,7 @@ Full license text: https://www.gnu.org/licenses/gpl-3.0.html
 
 [![Website](https://img.shields.io/badge/🌐_Website-vipaccsystem.com-D4AF37?style=for-the-badge&labelColor=0a0a0a)](http://vipaccsystem.com)
 [![Repo](https://img.shields.io/badge/📦_Repository-vipaccsystem.eu-D4AF37?style=for-the-badge&labelColor=0a0a0a)](http://repo.vipaccsystem.eu)
-[![Security](https://img.shields.io/badge/🔐_Security-Report_Vulnerability-red?style=for-the-badge&labelColor=0a0a0a)](mailto:security@frontaccounting.com)
+[![Security](https://img.shields.io/badge/🔐_Security-Report_Vulnerability-red?style=for-the-badge&labelColor=0a0a0a)](mailto:security@vipsystem.com)
 
 <br/>
 
