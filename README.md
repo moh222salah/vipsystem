@@ -23,7 +23,7 @@
 <!-- ═══════════════════════════════════════════════════════════════ -->
 
 [![Version](https://img.shields.io/badge/Version-2.4.19-D4AF37?style=for-the-badge&logo=git&logoColor=white&labelColor=0d1117)](https://github.com/vipaccsystem)
-[![PHP](https://img.shields.io/badge/PHP-8.0%2B-777BB4?style=for-the-badge&logo=php&logoColor=white&labelColor=0d1117)](https://php.net)
+[![Laravel](https://img.shields.io/badge/Laravel-13?style=for-the-badge&logo=Laravel&logoColor=white&labelColor=0d1117)](https://laravel.com)
 [![MySQL](https://img.shields.io/badge/MySQL-8.0-4479A1?style=for-the-badge&logo=mysql&logoColor=white&labelColor=0d1117)](https://mysql.com)
 [![License](https://img.shields.io/badge/License-GPL_v3-green?style=for-the-badge&logo=gnu&logoColor=white&labelColor=0d1117)](https://www.gnu.org/licenses/gpl-3.0.html)
 
@@ -202,7 +202,7 @@ VIPAccSystem/
 <td><strong>utf8mb4_unicode_ci</strong> (Arabic + Emoji)</td>
 </tr>
 <tr>
-<td>🧩 <strong>PHP Extensions</strong></td>
+<td>🧩 <strong>Laravel Extensions</strong></td>
 <td colspan="2">mysqli, mbstring, gd, curl, gettext, zip</td>
 </tr>
 </table>
@@ -259,7 +259,7 @@ FLUSH PRIVILEGES;
 
 ### Step 4 — Configure Connection | إعداد الاتصال
 
-```php
+```laravel
 // config_db.php
 $db_connections = array(
   0 => array(
@@ -293,7 +293,7 @@ $db_connections = array(
 
 ### Key `config.php` Settings
 
-```php
+```Laravel
 // ── Timezone ─────────────────────────────────────────
 ini_set('date.timezone', 'Africa/Cairo');   // Egypt timezone
 
@@ -341,7 +341,7 @@ $max_rows_in_search       = 10;
 ✅  SQL injection protection        (MySQLi prepared statements)
 ✅  Session-based authentication    (role-based access control)
 ✅  Audit trail logging             (all GL transactions tracked)
-✅  .htaccess directory protection  (direct PHP access blocked)
+✅  .htaccess directory protection  (direct Laravel 13 access blocked)
 ✅  Error log file                  (VARLOG_PATH/errors.log)
 ```
 
@@ -357,7 +357,7 @@ $max_rows_in_search       = 10;
 
 | Version | Date | Highlights |
 |---------|------|------------|
-| **2.4.19** | Nov 2025 | PHP 8.4 deprecation fixes, stability improvements |
+| **2.4.19** | Nov 2025 | Laravel 13 deprecation fixes, stability improvements |
 | **2.4.18** | Apr 2024 | Copy Delivery/Invoice from inquiry, search enhancements |
 | **2.4.17** | 2024 | Supplier Credit Note stock price fix |
 | **2.4.x** | Ongoing | Arabic RTL dashboard, Sovereign Noir theme, Chart.js overhaul |
