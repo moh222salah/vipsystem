@@ -98,33 +98,6 @@ Designed for companies that demand **دقّة ماليّة** — financial preci
 ---
 
 <!-- ═══════════════════════════════════════════════════════════════ -->
-<!--                   DASHBOARD SCREENSHOTS                         -->
-<!-- ═══════════════════════════════════════════════════════════════ -->
-
-## 📸 Screenshots | لقطات الشاشة
-
-<div align="center">
-
-### 🌙 Arabic Dashboard — لوحة التحكم العربية (RTL)
-> *Dark Luxury Theme with glassmorphism KPI cards, real-time charts, and full RTL layout*
-
----
-
-### 🌅 English Dashboard — لوحة التحكم الإنجليزية (LTR)
-> *Light professional theme with Monthly P&L, Fiscal Year Summary, Cash Flow analysis, and Journal Entries*
-
----
-
-### 🗄️ Database Schema — هيكل قاعدة البيانات
-> *MySQL InnoDB — utf8mb4_unicode_ci — 70+ tables with prefix support (`0_`)*
-
-</div>
-
-> **Theme Philosophy:** The **Sovereign Noir** aesthetic uses dark backgrounds (`#0a0a14`), gold accents (`#D4AF37`), electric cyan for financial figures (`#00e5ff`), and glassmorphism panels — creating a premium, trust-inspiring experience for financial professionals.
-
----
-
-<!-- ═══════════════════════════════════════════════════════════════ -->
 <!--                    SYSTEM REQUIREMENTS                          -->
 <!-- ═══════════════════════════════════════════════════════════════ -->
 
