@@ -179,7 +179,7 @@ VIPAccSystem/
 <tr>
 <td>🐘 <strong>PHP</strong></td>
 <td>7.4+</td>
-<td>8.2+ (PHP 8.4 supported)</td>
+<td>13 ( Laravel 13 supported)</td>
 </tr>
 <tr>
 <td>🐬 <strong>MySQL / MariaDB</strong></td>
