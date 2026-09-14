@@ -53,7 +53,7 @@
 
 ## 🇬🇧 About VIPAccSystem
 
-**VIPAccSystem** is a comprehensive, enterprise-grade open-source accounting ERP built on the vipsystem core, extensively customized for Arabic-speaking businesses. It delivers a powerful, bilingual (AR/EN) financial management platform with a modern luxury UI — the **Sovereign Noir** theme — featuring glassmorphism cards, gold accents, and animated dashboards.
+**VIPAccSystem** is a comprehensive, enterprise-grade accounting ERP built on the vipsystem core, extensively customized for Arabic-speaking businesses. It delivers a powerful, bilingual (AR/EN) financial management platform with a modern luxury UI — the **Sovereign Noir** theme — featuring glassmorphism cards, gold accents, and animated dashboards.
 
 Designed for companies that demand **دقّة ماليّة** — financial precision.
 
@@ -62,7 +62,7 @@ Designed for companies that demand **دقّة ماليّة** — financial preci
 
 ## 🇸🇦 نبذة عن النظام
 
-**VIPAccSystem** هو نظام ERP محاسبي مفتوح المصدر، متكامل ومُصمَّم للشركات الناطقة بالعربية. يوفر إدارة مالية شاملة ثنائية اللغة (عربي/إنجليزي) مع واجهة مستخدم فاخرة بأسلوب **Sovereign Noir** تتضمن تأثيرات الزجاج، اللمسات الذهبية، ولوحات بيانات متحركة.
+**VIPAccSystem** هو نظام ERP محاسبي، متكامل ومُصمَّم للشركات الناطقة بالعربية. يوفر إدارة مالية شاملة ثنائية اللغة (عربي/إنجليزي) مع واجهة مستخدم فاخرة بأسلوب **Sovereign Noir** تتضمن تأثيرات الزجاج، اللمسات الذهبية، ولوحات بيانات متحركة.
 
 مبني على أساس vipsystem ومُطوَّر بشكل موسّع ليناسب بيئات الأعمال العربية.
 
