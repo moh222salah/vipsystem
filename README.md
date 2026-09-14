@@ -98,46 +98,6 @@ Designed for companies that demand **دقّة ماليّة** — financial preci
 ---
 
 <!-- ═══════════════════════════════════════════════════════════════ -->
-<!--                   TECHNICAL HIGHLIGHTS                          -->
-<!-- ═══════════════════════════════════════════════════════════════ -->
-
-## 🛠️ Technical Architecture | البنية التقنية
-
-```
-VIPAccSystem/
-│
-├── 🎨  themes/                  → UI Themes (Sovereign Noir / default)
-│   └── default/
-│       ├── renderer.php         → Layout engine (header, sidebar, footer)
-│       └── default.css          → Glassmorphism + Gold accent styles
-│
-├── 📱  applications/            → ERP Module definitions
-│   ├── customers.php            → Sales & Receivables
-│   ├── suppliers.php            → Purchasing & Payables
-│   ├── inventory.php            → Stock Management
-│   ├── generalledger.php        → GL & Reporting
-│   ├── fixed_assets.php         → Asset Management
-│   └── setup.php                → System Configuration
-│
-├── 🗄️  includes/                → Core framework
-│   ├── session.inc              → Auth & session management
-│   ├── db/                      → Database abstraction layer
-│   └── ui/                      → UI helper functions
-│
-├── 📊  reporting/               → PDF & Chart reports
-│   └── includes/tcpdf.php       → PDF generation engine
-│
-├── 🌍  lang/                    → Translations (AR, EN, +40 languages)
-│
-├── 🔧  config.php               → Application configuration
-├── 🔧  config_db.php            → Database connection (utf8_unicode_ci)
-├── 📋  index.php                → Application entry point
-└── 🔌  installed_extensions.php → Extension manager
-```
-
----
-
-<!-- ═══════════════════════════════════════════════════════════════ -->
 <!--                   DASHBOARD SCREENSHOTS                         -->
 <!-- ═══════════════════════════════════════════════════════════════ -->
 
