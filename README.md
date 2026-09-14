@@ -22,7 +22,7 @@
 <!--                      BADGES ROW 1                              -->
 <!-- ═══════════════════════════════════════════════════════════════ -->
 
-[![Version](https://img.shields.io/badge/Version-2.4.19-D4AF37?style=for-the-badge&logo=git&logoColor=white&labelColor=0d1117)](https://github.com/vipaccsystem)
+[![Version](https://img.shields.io/badge/Version-22-D4AF37?style=for-the-badge&logo=git&logoColor=white&labelColor=0d1117)](https://github.com/vipaccsystem)
 [![Laravel](https://img.shields.io/badge/Laravel-13?style=for-the-badge&logo=Laravel&logoColor=white&labelColor=0d1117)](https://laravel.com)
 [![MySQL](https://img.shields.io/badge/MySQL-8.0-4479A1?style=for-the-badge&logo=mysql&logoColor=white&labelColor=0d1117)](https://mysql.com)
 [![License](https://img.shields.io/badge/License-GPL_v3-green?style=for-the-badge&logo=gnu&logoColor=white&labelColor=0d1117)](https://www.gnu.org/licenses/gpl-3.0.html)
@@ -120,69 +120,6 @@ Designed for companies that demand **دقّة ماليّة** — financial preci
 ---
 
 <!-- ═══════════════════════════════════════════════════════════════ -->
-<!--                    VERSION HISTORY                              -->
-<!-- ═══════════════════════════════════════════════════════════════ -->
-
-## 📜 Version History | سجل الإصدارات
-
-| Version | Date | Highlights |
-|---------|------|------------|
-| **2.4.19** | Nov 2025 | Laravel 13 deprecation fixes, stability improvements |
-| **2.4.18** | Apr 2024 | Copy Delivery/Invoice from inquiry, search enhancements |
-| **2.4.17** | 2024 | Supplier Credit Note stock price fix |
-| **2.4.x** | Ongoing | Arabic RTL dashboard, Sovereign Noir theme, Chart.js overhaul |
-
-> Full history: [`CHANGELOG.txt`](./CHANGELOG.txt)
-
----
-
-<!-- ═══════════════════════════════════════════════════════════════ -->
-<!--                  DATABASE SCHEMA OVERVIEW                       -->
-<!-- ═══════════════════════════════════════════════════════════════ -->
-
-## 🗄️ Database Schema | هيكل قاعدة البيانات
-
-All tables use the prefix `0_` (configurable). Key tables:
-
-```
-📊 Financial Core
-├── 0_chart_master        → Chart of accounts
-├── 0_gl_trans            → General ledger transactions
-├── 0_bank_trans          → Banking transactions
-├── 0_bank_accounts       → Bank account definitions
-└── 0_audit_trail         → Full audit history
-
-👥 CRM & Sales
-├── 0_debtors_master      → Customers
-├── 0_cust_branch         → Customer branches
-├── 0_sales_orders        → Sales order headers
-├── 0_debtor_trans        → Customer transactions
-└── 0_cust_allocations    → Payment allocations
-
-🏪 Purchasing
-├── 0_creditors_master    → Suppliers
-├── 0_supp_trans          → Supplier transactions
-├── 0_grn_batch           → Goods received notes
-└── 0_supp_allocations    → AP allocations
-
-📦 Inventory
-├── 0_stock_master        → Item master
-├── 0_stock_moves         → Stock movements
-├── 0_stock_category      → Item categories
-└── 0_bom                 → Bill of materials
-
-⚙️ System
-├── 0_users               → User accounts
-├── 0_security_roles      → Access control
-├── 0_company             → Company settings
-└── 0_sys_prefs           → System preferences
-```
-
-> **Collation Fix:** DB collation updated from `utf8_xx` (invalid) → `utf8_unicode_ci` to resolve Arabic text display issues (??? characters).
-
----
-
-<!-- ═══════════════════════════════════════════════════════════════ -->
 <!--                    QUICK ACTIONS                                -->
 <!-- ═══════════════════════════════════════════════════════════════ -->
 
@@ -203,54 +140,6 @@ The dashboard provides one-click access to the most common workflows:
 </div>
 
 ---
-
-<!-- ═══════════════════════════════════════════════════════════════ -->
-<!--                   CONTRIBUTING                                  -->
-<!-- ═══════════════════════════════════════════════════════════════ -->
-
-## 🤝 Contributing | المساهمة
-
-We welcome contributions! To get started:
-
-```bash
-# 1. Fork the repository
-# 2. Create a feature branch
-git checkout -b feature/your-feature-name
-
-# 3. Make your changes and test
-# 4. Commit with a descriptive message
-git commit -m "feat: add [description]"
-
-# 5. Push and open a Pull Request
-git push origin feature/your-feature-name
-```
-
-**Contribution areas:**
-- 🌍 Translation improvements (Arabic, regional dialects)
-- 🎨 Theme development (RTL layout fixes, mobile responsiveness)  
-- 🐛 Bug reports via [Mantis bugtracker](https://mantis.vipsystem.com)
-- 📖 Documentation (Arabic/English)
-- 🔌 Extension development
-
----
-
-<!-- ═══════════════════════════════════════════════════════════════ -->
-<!--                      LICENSE                                    -->
-<!-- ═══════════════════════════════════════════════════════════════ -->
-
-## 📄 License | الترخيص
-
-```
-VIPAccSystem — Copyright (C) VIPAccSystem, LLC.
-
-Released under the GNU General Public License v3.0
-This program is free software: you can redistribute it and/or modify
-it under the terms of the GNU GPL as published by the Free Software
-Foundation, either version 3 of the License, or any later version.
-
-Full license text: https://www.gnu.org/licenses/gpl-3.0.html
-```
-
 ---
 
 <!-- ═══════════════════════════════════════════════════════════════ -->
